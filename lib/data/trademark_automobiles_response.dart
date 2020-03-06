@@ -1,5 +1,4 @@
 // To parse this JSON data, do
-//
 //     final trademarkAutomobilesResponse = trademarkAutomobilesResponseFromJson(jsonString);
 
 import 'dart:convert';
@@ -26,6 +25,6 @@ class TrademarkAutomobilesResponse {
     };
 }
 
-TrademarkAutomobilesResponse trademarkAutomobilesResponseFromJson(String str) => TrademarkAutomobilesResponse.fromJson(json.decode(str));
+TrademarkAutomobilesResponse trademarkAutomobilesResponseFromJson(String jsonString) => TrademarkAutomobilesResponse.fromJson(json.decode(jsonString));
 
 String trademarkAutomobilesResponseToJson(TrademarkAutomobilesResponse data) => json.encode(data.toJson());
