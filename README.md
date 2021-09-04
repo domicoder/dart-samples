@@ -3,3 +3,8 @@
 # Descrption
 
 In this repository you will find some samples of Dart conventions, like **mixins**, **getters**, **setters**, **async**, a**wait**, **future**, etc.
+
+## Run
+
+```cd sample```
+```dart run```
